@@ -13,4 +13,19 @@ This is an hands-on cybersecurity challenge exercise that simulates a purple tea
 
 <h3>Questions</h3>
 <p align="center">
-<img src="https://i.imgur.com/A6K8Kog.png" height="80%" width="80%" alt="Snort Challenge Live Attack"/>
+<img src="https://i.imgur.com/A6K8Kog.png" height="80%" width="80%" alt="Summit challenge"/>
+
+<h3>Task 1</h3>
+<p align="center">
+<img src="https://i.imgur.com/5um6xL7.png" height="80%" width="80%" alt="Summit challenge"/>
+
+In Image above, we got a mail from the Pentest team to analyse sample1.txt to analyse this executable file I use PicoSecure.
+
+<p align="center">
+<img src="https://i.imgur.com/r2VhIAB.png" height="80%" width="80%" alt="Summit challenge"/>
+
+
+
+<p align="center">
+<img src="https://i.imgur.com/rep4AiC.png" height="80%" width="80%" alt="Summit challenge"/>
+
