@@ -74,7 +74,7 @@ Having discovered that there are 2 DNS request that are consodered malicious. Ru
 <p align="center">
 <img src="https://i.imgur.com/ycMnCkW.png" height="80%" width="80%" alt="Summit challenge"/>
 
-<h3>Task 4: </h3>
+<h3>Task 4: Registry Modification </h3>
 
 After getting the third flag, I am given the fourth executabele to analyse. After analysing I realise we have Registry activity which could be considered malicious, because the name says DisableRealtime Monitoring. See the image below.
 
@@ -92,4 +92,4 @@ After dicovering this malicous activity I used the sigma Rule Builder using Sysm
 <p align="center">
 <img src="https://i.imgur.com/2DZu0Ea.png" height="80%" width="80%" alt="Summit challenge"/>
 
-After applying this rule I got the fourth Flag. 
+After applying this rule I got the fourth Flag. which bring about the fifth Flag.
