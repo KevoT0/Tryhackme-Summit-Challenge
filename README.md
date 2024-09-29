@@ -37,7 +37,7 @@ After getting the hash, I submit the hash to get the first flag
 
 <h3>Task 2: Creating Firewall Rule</h3>
 
-After geeting the first flag, I am given the secound executabele to analyse see 
+After geeting the first flag, I am given the second executabele to analyse.
 
 <p align="center">
 <img src="https://i.imgur.com/lRxLKAs.png" height="80%" width="80%" alt="Summit challenge"/>
@@ -56,3 +56,12 @@ After analysing sample2.txt, we are using the to create a firewall rule to get t
   <br/>
 <p align="center">
 <img src="https://i.imgur.com/C2nCjbD.png" height="80%" width="80%" alt="Summit challenge"/>
+
+<h3>Task 3: </h3>
+
+After getting the second flag, I am given the third executabele to analyse 
+
+<p align="center">
+<img src="https://i.imgur.com/1f9VAIW.png" height="80%" width="80%" alt="Summit challenge"/>
+
+
