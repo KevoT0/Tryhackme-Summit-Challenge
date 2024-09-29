@@ -35,7 +35,7 @@ After getting the hash, I submit the hash to get the first flag
 <img src="https://i.imgur.com/HizvRTE.png" height="80%" width="80%" alt="Summit challenge"/>
 
 
-<h3>Task 2</h3>
+<h3>Task 2: Creating Firewall Rule</h3>
 
 After geeting the first flag, I am given the secound executabele to analyse see 
 
@@ -47,10 +47,12 @@ After analsying Sample2.txt, we can see there arec 3 TCP/UDP connectiosns and 1 
 <p align="center">
 <img src="https://i.imgur.com/6sn3QEU.png" height="80%" width="80%" alt="Summit challenge"/>
 
-After seeing this, I am will need to craete a firewall rule usinging the firewall rule Manager
+After seeing this, I am will need to craete a firewall rule usinging the Firewall Rule Manager
 
 <p align="center">
 <img src="https://i.imgur.com/GGV22zo.png" height="80%" width="80%" alt="Summit challenge"/>
-<br/>
+
+After analysing sample2.txt, we are using the to create a firewall rule to get the second flag. See the image below that shows the second Flag
+  <br/>
 <p align="center">
 <img src="https://i.imgur.com/C2nCjbD.png" height="80%" width="80%" alt="Summit challenge"/>
