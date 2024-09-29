@@ -24,7 +24,7 @@ In Image above, we got a mail from the Pentest team to analyse sample1.txt to an
 <p align="center">
 <img src="https://i.imgur.com/r2VhIAB.png" height="80%" width="80%" alt="Summit challenge"/>
 
-After analysing the sample1.txt we can see some Hash been generated, I now navigate to <b>Manage Hashes<b/> to analyse the hash.
+After analysing the sample1.txt we can see some Hash been generated, I now navigate to Manage Hashes to analyse the hash.
 
 <p align="center">
 <img src="https://i.imgur.com/rep4AiC.png" height="80%" width="80%" alt="Summit challenge"/>
@@ -33,7 +33,6 @@ After getting the hash, I submit the hash to get the first flag
 
 <p align="center">
 <img src="https://i.imgur.com/HizvRTE.png" height="80%" width="80%" alt="Summit challenge"/>
-
 
 <h3>Task 2: Creating Firewall Rule</h3>
 
@@ -53,7 +52,7 @@ After seeing this, I am will need to craete a firewall rule usinging the Firewal
 <img src="https://i.imgur.com/GGV22zo.png" height="80%" width="80%" alt="Summit challenge"/>
 
 After analysing sample2.txt, we are using the to create a firewall rule to get the second flag. See the image below that shows the second Flag
-  <br/>
+<br/>
 <p align="center">
 <img src="https://i.imgur.com/C2nCjbD.png" height="80%" width="80%" alt="Summit challenge"/>
 
@@ -67,10 +66,30 @@ After getting the second flag, I am given the third executabele to analyse. Afte
 <p align="center">
 <img src="https://i.imgur.com/s3vwpJA.png" height="80%" width="80%" alt="Summit challenge"/>
 
-Having discovered that there are 2 DNS request that are consodered malicious. Rules are created to deny these DNS connections. see the image below 
+Having discovered that there are 2 DNS request that are consodered malicious. Rules are created to deny these DNS connections and the Second flag is gotten . see the image below 
 
 <p align="center">
 <img src="https://i.imgur.com/iK4uird.png" height="80%" width="80%" alt="Summit challenge"/>
 <br />
 <p align="center">
 <img src="https://i.imgur.com/ycMnCkW.png" height="80%" width="80%" alt="Summit challenge"/>
+
+<h3>Task 4: </h3>
+
+After getting the third flag, I am given the fourth executabele to analyse. After analysing I realise we have Registry activity which could be considered malicious, because the name says DisableRealtime Monitoring. See the image below.
+
+<p align="center">
+<img src="https://i.imgur.com/jBlx8QV.png" height="80%" width="80%" alt="Summit challenge"/>
+<br />
+<p align="center">
+<img src="https://i.imgur.com/6qdQvdr.png" height="80%" width="80%" alt="Summit challenge"/>
+
+After dicovering this malicous activity I used the sigma Rule Builder using Sysmon Event Logs, I use the Registry Modification to change the rule created see the Image below.
+
+<p align="center">
+<img src="https://i.imgur.com/y2GifbM.png" height="80%" width="80%" alt="Summit challenge"/>
+<br />
+<p align="center">
+<img src="https://i.imgur.com/2DZu0Ea.png" height="80%" width="80%" alt="Summit challenge"/>
+
+After applying this rule I got the fourth Flag. 
