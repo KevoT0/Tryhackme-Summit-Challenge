@@ -57,11 +57,20 @@ After analysing sample2.txt, we are using the to create a firewall rule to get t
 <p align="center">
 <img src="https://i.imgur.com/C2nCjbD.png" height="80%" width="80%" alt="Summit challenge"/>
 
-<h3>Task 3: </h3>
+<h3>Task 3: DNS Filtering</h3>
 
-After getting the second flag, I am given the third executabele to analyse 
+After getting the second flag, I am given the third executabele to analyse. After analysing I realise we have 2 DNS request which will be added to the DNS filter to deny access. See the image below.
 
 <p align="center">
 <img src="https://i.imgur.com/1f9VAIW.png" height="80%" width="80%" alt="Summit challenge"/>
+<br />
+<p align="center">
+<img src="https://i.imgur.com/s3vwpJA.png" height="80%" width="80%" alt="Summit challenge"/>
 
+Having discovered that there are 2 DNS request that are consodered malicious. Rules are created to deny these DNS connections. see the image below 
 
+<p align="center">
+<img src="https://i.imgur.com/iK4uird.png" height="80%" width="80%" alt="Summit challenge"/>
+<br />
+<p align="center">
+<img src="https://i.imgur.com/ycMnCkW.png" height="80%" width="80%" alt="Summit challenge"/>
