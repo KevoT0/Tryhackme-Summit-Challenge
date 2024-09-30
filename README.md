@@ -175,3 +175,8 @@ After getting the fifth flag, I am given the sixth executabele to analyse. After
 Here are the answers with the flags 
 <p align="center">
 <img src="https://i.imgur.com/p0i9l9g.png" height="80%" width="80%" alt="Summit challenge"/>
+
+
+<h3> Conclusion</h3/>
+
+The TryHackMe Summit challenge provided a valuable opportunity to apply my cybersecurity skills in a simulated real-world scenario. Through this experience, I gained practical knowledge in malware analysis, threat prevention, and the use of various security tools and techniques. I am confident that these skills will be invaluable as I continue my career in cybersecurity.
