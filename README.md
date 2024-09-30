@@ -103,7 +103,11 @@ After getting the fourth flag, I am given the fifth executabele to analyse. Afte
 
 <h3>Task 6: Process Creation</h3>
 
-After getting the fifth flag, I am given the sixth executabele to analyse. After analysing the fifth flag we got a connection logs and the analysed data. From the analysed Data and the connection Log a rule is created to find the sixth flag. See the image below that showws the rule created in the Network connection.
+After getting the fifth flag, I am given the sixth executabele to analyse. After analysing the sixth flag we got the analysed data, I found a malicious file Process and i created a rule to stop this process see the image below.
 
 <p align="center">
 <img src="https://i.imgur.com/WYkr8MF.png" height="80%" width="80%" alt="Summit challenge"/>
+
+Here are the answers with the flags 
+<p align="center">
+<img src="https://i.imgur.com/p0i9l9g.png" height="80%" width="80%" alt="Summit challenge"/>
